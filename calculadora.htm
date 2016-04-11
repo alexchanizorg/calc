@@ -8,6 +8,10 @@ function cuadrado() {
   var num = document.getElementById("n1");
   num.value = num.value * num.value;
 }
+function cubo() {
+  var num = document.getElementById("n1");
+  num.value = num.value * num.value * num.value ;
+}
 
 </script>
 </head>
@@ -17,5 +21,6 @@ function cuadrado() {
 
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
 
+  <button onclick="cubo()"> x<sup>3</sup> </button>
 </body>
 </html>
